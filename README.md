@@ -94,7 +94,14 @@ As you can realize by now we had plenty of problems since the beginning, let's g
 - Too heavy
 - Slow, due to the two previous problems
 - Didn't direct the robot correctly
+  
+### Third prototype:
 
+- The mechanism wasnt consist
+- Low voltage on motor
+- Problems on turns
+- Didn't detect colors right
+  
 ### *(to learn more about our sketches and prototypes go to the `Older versions of our final robot` folder)*
 
 ### Final robot
@@ -105,7 +112,9 @@ Journies have downsides and good times, advantages and disavantages. After the f
 - Short and thin
 - The direction and wheel mechanism do work
 - Fast
-- Doesn't violate any rules of the WRO 2024 competition.
+- Solid chassis
+- 3d printed parts on ABS
+- Doesn't violate any rules of the WRO 2025 competition.
   
 
   
