@@ -31,23 +31,23 @@ In this directory you will find links to:
 
 - https://youtu.be/xLu6_tLh33c?si=TgCPNXHQxp1kua-9
 
-## Final robot's direction: 
-- Here we demostrate the ability to turn from one side to another (and the mechanism to do so) of our robot:
+## Third prototype's direction: 
+- Here we demostrate the ability to turn from one side to another (and the mechanism to do so) of our third prototype:
 
 - https://youtu.be/LIwiXsxAzfs?si=ffl3m8pvXG6mpt3J
 
-## Final robot on the ground:
-- Here we demostrate Terreneitor's speed and fast velocity on the ground.
+## Third prototype on the ground:
+- Here we demostrate Terreneitor's (third prototype) speed and fast velocity on the ground.
 
 - https://youtu.be/L0IB8tpKi-c?feature=shared
 
-## Final robot's direction mechanism and ultrasonic sensors
-- Here we demostrate how the servomotor and the ultrasonic sensors in our robot work in unison
+## Third prototype's direction mechanism and ultrasonic sensors
+- Here we demostrate how the servomotor and the ultrasonic sensors in our third prototy work in unison
 
 - https://youtube.com/shorts/-ydbWwwqAOM?si=ZDhiF-gVkNM1LRam
 
-## Final robot on the track 
-- Here we show the final robot on the track
+## Third prototype on the track 
+- Here we show the third prototype on the track
 
 - https://youtu.be/CYdOAYD9zVA?si=WlyTS36bONAyFMDh
 
