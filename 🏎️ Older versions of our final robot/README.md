@@ -72,7 +72,7 @@ However, there was another problem, in the two images below you can see that for
 - It was still heavy
 - It was very wide
 - To obligatorily have a direction mechanism 
-- To check and follow the rules of the WRO 2024 competition
+- To check and follow the rules of the WRO 2025 competition
 - It was very slow
 
 After all this prototypes, we came to a conclusion: 
@@ -81,7 +81,7 @@ After all this prototypes, we came to a conclusion:
   - light weighted
   - thin and short
   - have a direction mechanism and use a servomotor in it
-  - follows the rules of the WRO 2024 competition
+  - follows the rules of the WRO 2025 competition
   - has 1 dc motor who makes both wheels move simultaneously
   - Fast in speed
 
