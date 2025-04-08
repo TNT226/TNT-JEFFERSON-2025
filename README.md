@@ -1,4 +1,4 @@
-# `TNT` - `TERRENEITOR`
+# `TNT` - `KABOOM`
 
 ## About
 
