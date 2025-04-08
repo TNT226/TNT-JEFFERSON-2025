@@ -16,16 +16,16 @@ The name of our team is TNT, we chose this name because we will _explode_ the co
 
 TNT is form by three members :
 
-  - Nicola Pasquale Simone Perdomo
-  - Daniela Texeira
-  - Emiliana Raquel Guerrero Fermíns
+  - Nicola Pasquale Simone Perdomo 16YO
+  - Daniela Texeira 17 year old
+  - Emiliana Raquel Guerrero Fermíns 16YO
   
 One thing that defines us, TNT, is that unlike others, we _don't_ give up easily, we are determine to be the best and improve as much as possible, always looking for success and enjoying every part of the process. You can see this characteristic about us being really strong during "our journey, process and prototypes" below and in the `Older versions of our final robot` folder.
 
 ## Content
 
 - `Pictures (Team and vehicle)`: contains photos of the final robot from different views and angles. And photos of us individually and in group.
-- `Older versions of our final robot`: contains photos of our previous ideas and prototypes that eventually lead to the final design and robot, Terreneitor.
+- `Older versions of our final robot`: contains photos of our previous ideas and prototypes that eventually lead to the final design and robot, Kaboom.
 - `Obstacle management`: contains the source code of the prototypes and the final robot with detailed comments, strategies, flowchart diagrams and pseudocode.
 - `Videos`: contains links to our Youtube videos which show how our previous attempts turn out and function, and also how the final robot completes the challenges and more. 
 - `Mobility management`: contains all the 3D printed models we used throught our journey, all the lego pieces, electrical components, and materials used in the final robot, a brief discussion regarding the vehicle chassis design/selection as well as the mounting of all components to the vehicle chassis/structure, and more.
@@ -34,7 +34,7 @@ One thing that defines us, TNT, is that unlike others, we _don't_ give up easily
 
 ## Materials and components
 
-What is Terreneitor made of? Terreneitor is made of pieces and blocks from pieces and lego parts from diverse lego sets we found in our robotics laboratory, while also using "ready to go" electrical components. We also used an Arduino board as our main controller, since this is what we learned in our school.
+What is Kaboom made of? Terreneitor is made of pieces and blocks from a  aluminum alloy chassi and 3d printed parts from our 3d printer being the bambu lab p1s, while also using "ready to go" electrical components. We also used an Arduino board as our main controller, since this is what we learned in our school.
 
 |THE LEGO PIECES OUR ROBOT USES ARE:|THE ARDUINO/ELECTRICAL COMPONENTS OUR ROBOT USES ARE:|                                                  
 |-----------------------------|---------------------|
