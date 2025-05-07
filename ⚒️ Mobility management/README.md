@@ -18,172 +18,66 @@ Here is our scheme of conduction and direction of our robot:
 
 # Build
 
-Now we will talk about, what our robot is made of: all the lego pieces, "ready to go"electrical components, and materials used in the final robot.
-
-What is Terreneitor made of? Terreneitor is made essentially of:
-- Pieces and lego parts from diverse lego sets we found in our robotics laboratory
-- While also using "ready to go" electrical components  
-- And our own parts and materials like personalized 3D printed models, silicone, tape and zip ties
-- Also, the main controller of our robot is an Arduino board
-
-In the chart below titled "THE LEGO PIECES OUR ROBOT USES ARE:", you will find:
-1) First, the amount of that especific piece we used on the robot
-2) Second, the color of that lego piece
-3) Third, the code of that lego piece
-
-|THE LEGO PIECES OUR ROBOT USES ARE:|                             
-|-----------------------------|
-|6x Yellow 4265c|
-|10x Gray 3713|
-|33x Black 2780|
-|1x Red 6538c|
-|1x Gray 60483|
-|2x White x346| 
-|2x Red 44809|
-|2x Black 32270|
-|1x Blue 32523|
-|1x Gray 32523|
-|4x Gray 32073|
-|1x Black 33299|
-|4x Gray 32140|
-|1x Gray 44294|
-|2x Black 3707|
-|2x Gray 48989|
-|4x Dark gray 3648|
-|4x White 40490|
-|5x Gray 40490|
-|6x Gray 64179|
-|4x Grey 56908|
-|4x Black 41897|
-
-You can see all of the lego pieces we used, for a better comprehension, more clearly and neatly in this materials chart:
-
-(this materials chart is made by us using the official lego _BrickLink_ app)
-
-<img src="https://github.com/TNT-JEFFERSON/TERRENEITOR/blob/2ef247ca32e48eab3df67cf346801934007bb733/%E2%9A%92%EF%B8%8F%20Mobility%20management/%E2%9A%99%EF%B8%8F%20Lego%20structure%3A%20construction%20step-by-step%20of%20our%20final%20robot/Lego%20pieces%20our%20robot%20uses.png" width="800">
-
-To know about how we build the lego structure step-by-step check the `⚙️ Lego structure: construction step-by-step of our final robot` directory which you will find in this folder.
 
 
-In the chart below titled "THE "READY TO GO" ELECTRICAL COMPONENTS OUR ROBOT USES ARE:", you will find:
-1) First, the amount of that especific piece we used on the robot
-2) Second, the name of that "ready to go" electrical piece/component
 
-|THE "READY TO GO" ELECTRICAL COMPONENTS OUR ROBOT USES ARE:|Photo of each:|                                                  
-|-----------------------------------------------------|--------------|
-|1x MicroServo 9g (SG90)|<img src="MicroServo 9g (SG90).jpeg" width="200">|
-|1x Yellow 9V Geared Dc Motor| <img src="Yellow 9V dc motor.jpg" width="200">|
-|1x Gray 3V Dc Motor| <img src="Gray 5V dc motor.jpg" width="200">|
-|1x Pixycam 2.1|<img src="PixyCam 2.1.jpeg" width="200">|
-|2x Ultrasonic sensors|<img src="ultrasonic sensor.png" width="200">|
-|A lot of Arduino cables| <img src="Arduino cables.jpg" width="200">|
-|2x Bateries|<img src="batteries.jpeg" width="200">  |
-|1x Arduino Uno Rev3 Board|<img src="Arduino Uno Rev3 Board.jpg.jpg" width="200">|
-|1x Protoboard MB-102 830 pins|<img src="Protoboard.jpg" width="200">|
 
-Apart from lego pieces and "ready to go" electrical components, we also used ordinary and our own materials, components and pieces like:
-
-- our own 3D printed models (which you can find in this folder the files, and below the explanation)
-- ordinary adhesive materials to join things or make them stronger like:
-  - silicone
-  - blue/black tape
-  - zip ties
 
 |OTHER MATERIALS OUR ROBOT USES ARE:|Photo of each:|                                                  
-|-----------------------------------------------------|--------------|
-|3D printed models|<img src="https://github.com/TNT-JEFFERSON/TERRENEITOR/blob/c9e13c2aa0a8e80e8ffdd8f5e4cbbee9d7e87a04/%F0%9F%96%A8%EF%B8%8F%20Models/Photo%20of%20the%20adapter%202.png" width="200"><img src="https://github.com/TNT-JEFFERSON/TERRENEITOR/blob/4a3f4b0863ad067fb2bd6ca101b112886b94527b/%F0%9F%96%A8%EF%B8%8F%20Models/Photo%20of%20blue%20piece%201.jpeg" width="200"><img src="Photo of gears.jpeg" width="200"><img src="Photo of beam frames.jpeg" width="200"><img src="Photo of beam.jpeg" width="200"><img src="Photo of green and red obstacle.jpeg" width="200"><img src="Support for pixy with adapter for lego.jpeg" width="400">|
-|silicone| <img src="silicone.jpg" width="200">|
-|black/blue tape| <img src="black tape.jpg" width="200"> <img src="blue tape.png.jpg" width="200">|
-|zip ties|<img src="zip ties.jpg" width="200">|
 
 
 ## Why did we chose all of these previous materials?
 
-We chose all of these previous materials, components and pieces in our robot because is what we found in our robotics laboratory and school and is also what we are being taught.
-
-Absolutely everything (the diverse lego pieces, the "ready to go" electrical components, and more) were also bought here in our country, Venezuela, except for the pixycam which was imported from abroad.
 
 
 ## Note:
 
-- Mostly eveything we just mentioned is part of our final robot, but for the previous attempts and prototypes we used the same or almost the same materials, pieces, parts and components.
-
 
 # Models
 
-Now, we will talk about all the information regarding our 3D printed models, designed and printed by us. 
+
 
 # 3D Scanner
 
-Its important to mention that we also borrowed a 3D scanner to print some models. This is because in our robotics laboratory we needed to modify some lego pieces, or didn't have enough of them, so we decided to print our own lego pieces.
-
-<img src="3D scanner.heic" width="500"> 
 
 # Our 3D printers
 
-These are the 3D printers we use at our school to print our 3D models, which are a fundametal part in the creation of our robot
-
-<img src="3D printers.jpeg" width="500"> 
 
 ## Adapter for the wheels
 
-This model is an adapter so we can join together the dc motor and the lego stick. The model has 2 sides: the first one being a cross so the lego stick fits there perfectly and the second one being a line where the dc motor fits. This 3D printed model is an essential part of our final robot's wheel mechanism, since thanks to this model it works.
-
-⇩ ( The blue and yellow parts you see next to the wheels are the adapters ) ⇩
-                                                                     
-<img src="https://github.com/TNT-JEFFERSON/TERRENEITOR/blob/1efa92038c587397bdfc46391e3aa5bf5d66d50c/%F0%9F%9A%99%20Vehicle%20photos/cenital%20view%20final%20robot.png" width="700">
-<img src="Photo of the adapter.png" width="900"> 
-<img src="Photo of the adapter 2.png" width="200">
 
 ### (you can find the 3D model stl document in this folder)
 
 ## Support for pixy with adapter for lego
 
-This model counts with two pieces which support the pixy like a case, it also counts with two holes at the ends so it can be adapted to the lego pieces which our robot is made with.
 
-<img src="Support for pixy with adapter for lego.jpeg" width="700"> 
 
 ### (you can find the 3D model stl document in this folder)
 
 ## Blue piece
 
-This model is a piece that functions to stop the dc motor from moving so it has a better performance. This model what 4 cm x 2 cm so it would in the space below the robot in the first prototype. 
 
-<img src="Photo of blue piece 1.jpeg" width="900"> 
-<img src="Photo of blue piece 2.jpeg" width="400"> 
 
 ### (you can find the 3D model stl document in this folder)
 
 ## Green and red obstacles
 
-This model counts with two pieces: the first one being red and the second one being green. This pieces help us practice for the second round (obstacle challenge).
-
-<img src="Photo of green and red obstacle.jpeg" width="900"> 
-<img src="Photo of green and red obstacle 3D models.png" width="900"> 
 
 ### (you can find the 3D model stl document in this folder)
 
 ## Beam frames 
 
-This model was made with help of the 3D scanner. This model was created because we didn't had enough beam frames at our robotics laboratory, so we decided to 3D print our own.
 
-<img src="Photo of beam frames.jpeg" width="900"> 
 
 ### (you can find the 3D model stl document in this folder)
 
 ## Gears
 
-This model was made with help of the 3D scanner. This model was created because we didn't had enough gears like this at our robotics laboratory, so we decided to 3D print our own. We also modified them to be a little bigger and therefore, function better. It's important to mention that gears are a fundamental part of our wheels mechanism, as you read before.
 
-<img src="Photo of gears.jpeg" width="900">
 
 ### (you can find the 3D model stl document in this folder)
 
 ## Beam
-
-This model was also made with help of the 3D scanner. This model was created because we didn't had enough beams like this at our robotics laboratory, so we decided to 3D print our own. We also modified them to our needs (we made it shorter). You can see this mean thourghout a lot of our robot's composition.
-
-<img src="Photo of beam.jpeg" width="900">
 
 
 ### (you can find the 3D model stl document in this folder)
