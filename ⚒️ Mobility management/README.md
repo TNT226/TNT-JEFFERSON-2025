@@ -26,7 +26,9 @@ Here is our scheme of conduction and direction of our robot:
 
 |OTHER MATERIALS OUR ROBOT USES ARE:|Photo of each:|   
 
-PLA in the color gray and ABS inthe color black 
+PLA in the color gray and ABS inthe color black
+<img src="ABS 3D printing filament color black .jpg" width="800">
+
 
 ## Why did we chose all of these previous materials?
 
