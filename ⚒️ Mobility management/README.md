@@ -41,7 +41,7 @@ PLA in the color gray and ABS inthe color black
 
 
 
-# 3D Scanner
+
 
 
 # Our 3D printers
