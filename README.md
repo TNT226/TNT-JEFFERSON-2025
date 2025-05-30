@@ -17,7 +17,7 @@ The name of our team is TNT, we chose this name because we will _explode_ the co
 TNT is form by three members :
 
   - Nicola Pasquale Simone Perdomo 16YO
-  - Sarah Virginia Quintana Arrieta
+  - Sarah Virginia Quintana Arrieta 18YO
   - Emiliana Raquel Guerrero Fermín 16YO
   
 One thing that defines us, TNT, is that unlike others, we _don't_ give up easily, we are determine to be the best and improve as much as possible, always looking for success and enjoying every part of the process. You can see this characteristic about us being really strong during "our journey, process and prototypes" below and in the `Older versions of our final robot` folder.
