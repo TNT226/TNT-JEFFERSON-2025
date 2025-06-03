@@ -28,17 +28,17 @@ One thing that defines us, TNT, is that unlike others, we _don't_ give up easily
 - `Older versions of our final robot`: contains photos of our previous ideas and prototypes that eventually lead to the final design and robot, Kaboom.
 - `Obstacle management`: contains the source code of the prototypes and the final robot with detailed comments, strategies, flowchart diagrams and pseudocode.
 - `Videos`: contains links to our Youtube videos which show how our previous attempts turn out and function, and also how the final robot completes the challenges and more. 
-- `Mobility management`: contains all the 3D printed models we used throught our journey, all the lego pieces, electrical components, and materials used in the final robot, a brief discussion regarding the vehicle chassis design/selection as well as the mounting of all components to the vehicle chassis/structure, and more.
+- `Mobility management`: contains all the 3D printed models we used throught our journey, all the 3d pieces, electrical components, and materials used in the final robot, a brief discussion regarding the vehicle chassis design/selection as well as the mounting of all components to the vehicle chassis/structure, and more.
 - `Power and sense management`: contains power and sense management about the power source for the vehicle as well as the sensors required to provide the vehicle with information to negotiate the different challenges, the reasons for selecting various sensors and how they are being used on the vehicle together and a wiring diagram with BOM that includes all aspects of professional wiring diagrams.
 
 
 ## Materials and components
 
-What is Kaboom made of? Terreneitor is made of pieces and blocks from a  aluminum alloy chassi and 3d printed parts from our 3d printer being the bambu lab p1s, while also using "ready to go" electrical components. We also used an Arduino board as our main controller, since this is what we learned in our school.
+What is Kaboom made of? Kaboom is made of pieces and blocks from a  aluminum alloy chassis and 3d printed parts from our 3d printer being the bambu lab P1S owned by Nicola Simone, while also using "ready to go" electrical components. We also used an Arduino UNO board as our main controller, since we saw that this is the most efficient way to complete the challenges.
 
-|THE LEGO PIECES OUR ROBOT USES ARE:|THE ARDUINO/ELECTRICAL COMPONENTS OUR ROBOT USES ARE:|                                                  
+|PIECES OUR ROBOT USES |3D PIECES/ARDUINO/ELECTRICAL COMPONENTS OUR ROBOT USES ARE:|                                                  
 |-----------------------------|---------------------|
-|6x Yellow 4265c|1x MicroServo 9g (SG90)|
+|1 Yahboom DIY Smart Robot Chassis Ackerman Chassis|
 |10x Gray 3713|1x Yellow 9V Geared Dc Motor|
 |33x Black 2780|1x Gray 5V Dc Motor|
 |1x Red 6538c|1x Pixycam 2.1|
