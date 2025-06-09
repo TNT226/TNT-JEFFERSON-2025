@@ -44,9 +44,11 @@ What is Kaboom made of? Kaboom is made of pieces and blocks from a  aluminum all
 ||1x Pixycam 2.1|
 ||2x Ultrasound sensors|
 || Arduino cables |
-||1x Batery 12v|
+||1x Nihewo Batery 11.1V/7500mAh|
 ||1x Arduino Uno Board|
 ||1x Protoboard|
+||
+||
 
 <img src="⚒️ Mobility management/⚙️ Lego structure: construction step-by-step of our final robot/Lego pieces our robot uses.png" width="800">
 
