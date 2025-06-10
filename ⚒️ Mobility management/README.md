@@ -31,7 +31,7 @@ Here is our scheme of conduction and direction of our robot:
 
 
 ## Note:
-Mostly eveything we just mentioned is part of our final robot, but for the previous attempts and prototypes we used the same or almost the same materials, pieces, parts and components. It is important to highlight that since this is our second year participating inside of this competition, most of our prototypes are from last year.
+Most of what we've described is integrated into our final robot. However, for our previous attempts and prototypes, we utilized largely the same materials, pieces, parts, and components. It's worth noting that since this is our second year competing, many of our prototypes are carried over from last year.
 
 # Models
 
