@@ -6,7 +6,7 @@ In this directory you will find the photos of:
 
 Our team counts with three members. We are:
 
-1) Daniela Valentina Teixeira Castellanos 
+1) Sarah Virginia Quintana Arrieta
 
 <img src="Photo of Raffaella Salama A.jpeg" width="400">
 
