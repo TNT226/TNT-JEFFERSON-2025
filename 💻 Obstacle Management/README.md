@@ -64,10 +64,10 @@ In order to explain all of the above better, we designed a flowchart diagram, a 
 |Our Old Flowchart Diagrams|
 |--------------------------|
 |1st Flowchart Diagramando Model|
-|<img src="1st Old flowchart diagram TNT2024.jpeg" width="900">|
+|<img src="1st Old flowchart diagram TNT2024.jpeg" width="500">|
 |--------------------------|
 |2nd Flowchart Diagramando Model|
-|<img src="2nd Old flowchart diagram TNT2024.jpeg" width="900">|
+|<img src="2nd Old flowchart diagram TNT2024.jpeg" width="500">|
 
 |Our New Flowchart Diagram|
 |-----------|
