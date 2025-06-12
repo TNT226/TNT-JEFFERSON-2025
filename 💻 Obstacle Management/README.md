@@ -10,7 +10,7 @@ In this directory you will find:
 
 ## Software
 
-The software we used for coding and programming our robot, Terreneitor, is _Arduino Integrated Development Environment (IDE)  _ application version: 2.3.2 in MacOS. Arduino uses a variant of the C++ programming language. The Arduino Integrated Development Environment or Arduino Software (IDE)  contains a text editor for writing code, a message area, a text console, a toolbar with buttons for common functions and a series of menus. It connects to the Arduino hardware to upload programs and communicate with them. We chose using this software not only because of its simplicity but because it what we learned in our school.
+The software we used for coding and programming our robot, Kaboom, is _Arduino Integrated Development Environment (IDE)  _ application version: 2.3.2 in MacOS. Arduino uses a variant of the C++ programming language. The Arduino Integrated Development Environment or Arduino Software (IDE)  contains a text editor for writing code, a message area, a text console, a toolbar with buttons for common functions and a series of menus. It connects to the Arduino hardware to upload programs and communicate with them. We chose using this software not only because of its simplicity but because it what we learned in our school.
 
 
 <img src="Arduino IDE 2.3.2.png" width="40000">
@@ -61,13 +61,17 @@ In order to explain all of the above better, we designed a flowchart diagram, a 
 (both diagrams were created entirely by us, TNT, using the smartdraw website: https://www.smartdraw.com/flowchart/flowchart-maker.htm)
 
 
-|Our old flowchart diagram|
+|Our Old Flowchart Diagrams|
 |--------------------------|
-|<img src="Old flowchart diagram TNT.jpeg" width="900">|
+|1st Flowchart Diagramando Model|
+|<img src="1st Old flowchart diagram TNT2024.jpeg" width="900">|
+|--------------------------|
+|2nd Flowchart Diagramando Model|
+|<img src="2nd Old flowchart diagram TNT2024.jpeg" width="900">|
 
-|Our new flowchart diagram|
+|Our New Flowchart Diagram|
 |-----------|
-|<img src="New flowchart diagram TNT..png" width="5000">|
+|<img src="Oficial Flowchart Diagram 2025.png" width="5000">|
 
 
 In this directory we uploaded all the codes we used both for our prototytpes and the final robot. All of this source codes contain detailed comments, so make sure to check them thoroughly!
