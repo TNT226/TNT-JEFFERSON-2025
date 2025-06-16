@@ -85,7 +85,7 @@ After all this prototypes, we came to a conclusion:
   - has 1 dc motor who makes both wheels move simultaneously
   - Fast in speed
 
-So with this in mind, we built our final robot, Terreneitor, who has all of this characteristics and more.
+So with this in mind, we built our final robot, Kaboom, who has all of this characteristics and more.
 
 (As stated at the beginning of this directory, if you want to know more about our final robot, check the other folders like:`vehicle photos` folder, the `build` folder, etc. You can also read the README of this repository since we mainly talk about our final robot there and in the other folders except for this one).
 
