@@ -39,16 +39,17 @@ What is Kaboom made of? Kaboom is made of pieces and blocks from a  aluminum all
 |PIECES OUR ROBOT USES |3D PIECES/ARDUINO/ELECTRICAL COMPONENTS OUR ROBOT USES ARE:|                                                  
 |-----------------------------|---------------------|
 |1 Yahboom DIY Smart Robot Chassis Ackerman Chassis|
-|1x Gray 3d part|1x 11.4|
-||1x Gray 11.4V L Motor|
-||1x Pixycam 2.1|
-||2x Ultrasound sensors|
-|| Arduino cables |
-||1x Nihewo Batery 11.1V/7500mAh|
-||1x Arduino Uno Board|
-||1x Protoboard|
-||
-||
+|1x Gray 3d part|1x Gray 11.4V JGB37-520 Motor|
+|1x Second Floor Platform 3d|1x Pixycam 2.1|
+|1x Axis 3d|2x Ultrasound sensors|
+|1x Carriage Axle Gear 3d| Arduino cables |
+|1x Motor Gear|Alligator Cables|
+|1x Motor Support 3d|1x Nihewo Batery 11.1V/7500mAh|
+|1x Motor Support Stand 3d|1x Arduino Uno Board|
+||1x Arduino Shield Protoboard|
+||1x H-Bridge Module|
+||1x Buck Module|
+||1x Switch On-Off|
 
 <img src="⚒️ Mobility management/⚙️ Lego structure: construction step-by-step of our final robot/Lego pieces our robot uses.png" width="800">
 
