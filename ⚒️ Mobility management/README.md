@@ -42,13 +42,13 @@ Second, the name of that "ready to go" electrical piece/component
 
 |OTHER MATERIALS OUR ROBOT USES ARE:|Photo of each:|   
 |1x Yahboom DIY Smart Robot Chassis Ackerman Chassis|<img src="Ackerman Chassis .jpg" width="200">|
-|1x Second Floor Platform 3d|<img src="2nd floor platform.stl" width="200">|
-|1x Axis 3d|<img src="Axis 3d.3mf" width="200">|
-|1x Carriage Axle Gear 3d|<img src="Carriage Axle Gear 3d.stl" width="200"> |
-|1x Motor Gear|<img src="Motor Gear.stl" width="200">|
-|1x Motor Support 3d|<img src="Motor Support 3d .stl" width="200">|
-|1x Motor Support Stand 3d|<img src="Motor Support Stand 3d.stl" width="200">|
-|||
+|1x Second Floor Platform 3d|<img src="Second Floor Platform.jpeg" width="200">|
+|1x Carriage Axle Gear 3d|<img src="Carriage Axle Gear .jpeg" width="200"> |
+|1x Motor Gear|<img src="Motor Gear.jpeg" width="200">|
+|1x Motor Support 3d|<img src="Motor Support.jpeg" width="200">|
+|1x Motor Support Stand 3d|<img src="Motor Support Stand.jpeg" width="200">|
+|1x Axis 3d|<img src="Axis 3d stl" width="200">|
+
 ## Why did we chose all of these previous materials?
 We chose all of these previous materials, components and pieces in our robot because is what we found in our robotics laboratory in school and it is what we are being taught.
 
