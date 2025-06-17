@@ -20,10 +20,10 @@ Of course, for practicality and increased effectiveness, the sensors and the pow
 
 |Wiring Diagrams|
 |-----------|
-|<>|
+|<img src="Wiring diagram TNT.png" width="300">|
 
 The sensors and the power sources are not the only components and pieces we used in our robot, and are not the only important and expensive parts we used, so we also elaborated a Bill Of Materials (BOM). Below you can see it:
 
 |Bill of Materials|
 |-----------|
-|<>|
+|<img src="BOM (Bill Of Materials).png" width="300">|
