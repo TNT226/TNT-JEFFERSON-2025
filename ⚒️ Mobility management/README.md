@@ -30,7 +30,7 @@ Second, the name of that "ready to go" electrical piece/component
 |2x Ultrasound sensors|<img src="Ultrasonic Sensor.png" width="200">|
 |Many Arduino cables |<img src="Arduino Cables.png" width="200">|
 |Many Alligator Cables|<img src="Alligator Cables.jpg" width="200">|
-|1x Nihewo Batery 11.1V/7500mAh|<img src="" width="200">|
+|1x Nihewo Batery 11.1V/7500mAh|<img src="Nihewo batery.jpg" width="200">|
 |1x Arduino Uno Board|<img src="Arduino UNO.jpeg" width="200">|
 |1x Arduino Shield Protoboard|<img src="Arduino Shield Protoboard .jpg" width="200">|
 |1x H-Bridge Module|<img src="H-bridge module.JPG" width="200">|
