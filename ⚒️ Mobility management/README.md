@@ -23,7 +23,7 @@ In the chart below titled "THE "READY TO GO" ELECTRICAL COMPONENTS OUR ROBOT USE
 First, the amount of that especific piece we used on the robot
 Second, the name of that "ready to go" electrical piece/component
 
-|## THE "READY TO GO" ELECTRICAL COMPONENTS OUR ROBOT USES ARE:|
+|THE "READY TO GO" ELECTRICAL COMPONENTS OUR ROBOT USES ARE:|Photo of Each:|
 |-----------------------------|---------------------|
 |1x Gray 11.4V JGB37-520 Motor|<img src="Motor JGB37-520.jpg" width="200">|
 |1x Pixycam 2.1|<img src="Pixycam.jpg" width="200">|
