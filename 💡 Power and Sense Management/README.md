@@ -8,9 +8,7 @@ Tthe power source for the vehicle
 - Wiring diagram that includes all aspects of professional wiring diagrams
 - Bill Of Materials (BOM)
 
-Kaboom has two power sources: The first one being a 5000 mA powerbank which provides power to the Arduino Rev3 Board, which is the main controller of our robot. The second one are four rechargable batteries of around 2300-1300 mA each and 1.2V that give power to the dc motor and are connected directly to the protoboard (were it becomes part of our circuit). In order, to turn the batteries (basically the robot) on and off, it counts with a switch (a power controller board) to do this.
-
-## Kaboom has only one power source: a Nihewo 11.1 V battery, which provides power to the whole car, throught other voltage regulators. The first regulator is the H-bridge,that will send power to the Arduino and the motor that  
+Kaboom has one main power source. Our power is provided by a Nihewo Batery 11.1V/7500mAh, which is capable to provide energy to the whole vehicule, throgh out voltage regulators. The first regulator is the H-bridge, that will send power to the Arduino Board and the 11.4V JGB37-520 Motor. From the Arduino Board will be connected cables to the Pixy Cam and the two Ultrasonic Sensors. On the other side, to provide energy to the .4 V Servo Motor, we use a Buck Module, as our second regulator, so that we can lower the voltage input. In order, to turn the batteries (basically the robot) on and off, it counts with a switch (a power controller board) to do this.
 
 These power sources for the vehicle, give power to whole robot, but some really important components that it gives power to are the sensors. Our robot counts with three sensors, two ultrasonic ones and one pixycam 2.1. The ultrasonic sensors help us detect the distance between the robot and the walls and/or obstacles, these two sensors are in each side of our robot. The pixycam 2.1 helps up detect colors in the Top front of the robot, it helps detect the red or/and green obstacles in the second challenge and the magenta parking lot in the track. 
 
