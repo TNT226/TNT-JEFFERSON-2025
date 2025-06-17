@@ -78,11 +78,11 @@ However, there was another problem, in the two images below you can see that for
 After all this prototypes, we came to a conclusion: 
 
 - We needed a robot that is:
-  - light weighted
-  - thin and short
-  - have a direction mechanism and use a servomotor in it
-  - follows the rules of the WRO 2025 competition
-  - has 1 dc motor who makes both wheels move simultaneously
+  - Light weighted
+  - Thin and tall
+  - Have an ackerman steering system and use a servomotor in it
+  - Follows the rules of the WRO 2025 competition
+  - Has 1 motor that makes both wheels move simultaneously through an axis and gears, with a lot of traction 
   - Fast in speed
 
 So with this in mind, we built our final robot, Kaboom, who has all of this characteristics and more.
