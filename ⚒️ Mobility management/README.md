@@ -80,26 +80,15 @@ For the gears, we designed two models the Carriage Axle Gear and the Motor Gear,
 
 ## Making Kaboom Step by Step:
 
-Step 1: First, we cutted the Yahboom DIY Smart Robot Chassis Ackerman Chassis on half so that the lenghth was correct according to the rules.
-|<img src="Step 1.jpeg" width="300">|
-
-Step 2: Second, we designed and printed the motor stands, which we screwed to the back green stands.
-|<img src="Step 2.jpeg" width="300">|
-
-Step 3: Third, we attached the motor and the motor support.
-|<img src="Step 3.jpeg" width="300">|
-
-Step 4: Fourth, we assembled the axis and gears together with the motor.
-|<img src="Step 4.jpeg" width="300">|
-
-Step 5:Fith, we located the Nihewo batery.
-|<img src="Step 5.jpeg" width="300">|
-
-Step 6: Sixth, we screwed the second floor platform (that we designed and printed) at the top with help of four metal pillars that came with the Yahboom DIY Smart Robot Chassis Ackerman Chassis we purchased.
-|<img src="Step 6.jpeg" width="300">|
-
-Step 7: Lastly, we placed the "READY TO GO" electrical components and the stands for the ultrasonic sensors and pixy cam in the second floor platform.
-|<img src="Step 7.jpeg" width="300">|
+|Step:|Photo of each step:| 
+|-----------------------------|---------------------|
+|Step 1: First, we cutted the Yahboom DIY Smart Robot Chassis Ackerman Chassis on half so that the lenghth was correct according to the rules.|<img src="Step 1.jpeg" width="300">|
+|Step 2: Second, we designed and printed the motor stands, which we screwed to the back green stands.|<img src="Step 2.jpeg" width="300">|
+|Step 3: Third, we attached the motor and the motor support.|<img src="Step 3.jpeg" width="300">|
+|Step 4: Fourth, we assembled the axis and gears together with the motor.|<img src="Step 4.jpeg" width="300">|
+|Step 5:Fith, we located the Nihewo batery.|<img src="Step 5.jpeg" width="300">|
+|Step 6: Sixth, we screwed the second floor platform (that we designed and printed) at the top with help of four metal pillars that came with the Yahboom DIY Smart Robot Chassis Ackerman Chassis we purchased.|<img src="Step 6.jpeg" width="300">|
+|Step 7: Lastly, we placed the "READY TO GO" electrical components and the stands for the ultrasonic sensors and pixy cam in the second floor platform.|<img src="Step 7.jpeg" width="300">|
 
 ## As a final note, it is important to mention that, as you have read, although we did purchased an ackerman chasis, we still modificated the mayority of it, making it our own and unique proyect, meaning we did _`not`_ use any Standard Construction Kit "Off the shelf" to build our robot, like Lego. We designed and builded our own original and unique robot, with our own 3d printed parts and electrical components.
 
