@@ -8,7 +8,7 @@ Our team counts with three members. We are:
 
 1) Sarah Virginia Quintana Arrieta
 
-<img src="Photo of Raffaella Salama A.jpeg" width="400">
+<img src="Sarah Quintana" width="400">
 
 2) Emiliana Raquel Guerrero Fermín
 
@@ -20,4 +20,3 @@ Our team counts with three members. We are:
 
 ### And together we are TNT!
 
-<img src="Photo of the team.jpeg" width="400"><img src="Photo of the team 2.jpeg" width="400">
