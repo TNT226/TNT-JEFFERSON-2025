@@ -40,7 +40,8 @@ Second, the name of that "ready to go" electrical piece/component
 
 
 
-|OTHER MATERIALS OUR ROBOT USES ARE:|Photo of each:|   
+|OTHER MATERIALS OUR ROBOT USES ARE:|Photo of each:| 
+|-----------------------------|---------------------|
 |1x Yahboom DIY Smart Robot Chassis Ackerman Chassis|<img src="Ackerman Chassis .jpg" width="200">|
 |1x Second Floor Platform 3d|<img src="Second Floor Platform.jpeg" width="200">|
 |1x Carriage Axle Gear 3d|<img src="Carriage Axle Gear .jpeg" width="200"> |
