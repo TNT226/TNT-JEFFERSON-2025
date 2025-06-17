@@ -50,8 +50,6 @@ What is Kaboom made of? Kaboom is made of pieces and blocks from a  aluminum all
 ||1x Buck Module|
 ||1x Switch On-Off|
 
-<img src="⚒️ Mobility management/⚙️ Lego structure: construction step-by-step of our final robot/Lego pieces our robot uses.png" width="800">
-
 ### To know the complete list of all the materials used visit the `Mobility management` folder.
 
 ## Our journey, progress and prototypes
@@ -98,11 +96,11 @@ As you can realize by now we had plenty of problems since the beginning, let's g
 Journies have downsides and good times, advantages and disavantages. After the first and second prototype you might think that because of all this problems we might give up, but contrary to this hypothesis, we didn't (after all "third time's a charm", right?), instead we improved and our mistakes made us stronger, wiser and smarter. So when we created our final robot, we made sure to not make any of our previous mistakes, being very causious in its construction. Thanks to this, we have a robot that is:
 
 - Light weighted
-- Short and thin
+- Tall and thin
 - The direction and wheel mechanism do work
 - Fast
 - Solid chassis
-- 3d printed parts on ABS
+- 3d printed parts designed by us
 - Doesn't violate any rules of the WRO 2025 competition.
   
 
