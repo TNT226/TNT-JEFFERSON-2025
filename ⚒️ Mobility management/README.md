@@ -18,8 +18,25 @@ Here is our scheme of conduction and direction of our robot:
 
 # Build
 
+In the chart below titled "THE "READY TO GO" ELECTRICAL COMPONENTS OUR ROBOT USES ARE:", you will find:
 
+First, the amount of that especific piece we used on the robot
+Second, the name of that "ready to go" electrical piece/component
 
+|## THE "READY TO GO" ELECTRICAL COMPONENTS OUR ROBOT USES ARE:|
+|-----------------------------|---------------------|
+|1x Gray 11.4V JGB37-520 Motor|<img src="Motor JGB37-520.jpg" width="500">|
+|1x Pixycam 2.1|<img src="Pixycam.jpg" width="500">|
+|2x Ultrasound sensors|<img src="Ultrasonic Sensor.png" width="500">|
+|Many Arduino cables |<img src="Arduino Cables.png" width="500">|
+|Many Alligator Cables|<img src="Alligator Cables.jpg" width="500">|
+|1x Nihewo Batery 11.1V/7500mAh|<img src="" width="500">|
+|1x Arduino Uno Board|<img src="Arduino UNO.jpeg" width="500">|
+|1x Arduino Shield Protoboard|<img src="Arduino Shield Protoboard .jpg" width="500">|
+|1x H-Bridge Module|<img src="H-bridge module.JPG" width="500">|
+|1x Buck Module|<img src="Buck Module.jpg" width="500">|
+|1x Switch On-Off|<img src="Switch On-Off.jpg" width="500">|
+|1x Servo Motor 7.4V|<img src="7.4 V Servo Motor.jpg" width="500">|
 
 
 
@@ -27,8 +44,9 @@ Here is our scheme of conduction and direction of our robot:
 
 
 ## Why did we chose all of these previous materials?
+We chose all of these previous materials, components and pieces in our robot because is what we found in our robotics laboratory in school and it is what we are being taught.
 
-
+Absolutely everything (the "ready to go" electrical components and the 3d printed parts) were bought, and in case of the 3d parts designed and printed, here in our country, Venezuela, except for the pixycam and the ackerman chassis which where imported from abroad.
 
 ## Note:
 Most of what we've described is integrated into our final robot. However, for our previous attempts and prototypes, we utilized largely the same materials, pieces, parts, and components. It's worth noting that since this is our second year competing, many of our prototypes are carried over from last year.
