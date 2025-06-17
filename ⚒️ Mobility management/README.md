@@ -13,7 +13,7 @@ For the main controller, we opted for an Arduino Uno board. The primary reason f
 Here is our scheme of conduction and direction of our robot:
 
 
-<img src="scheme of conduction and direction.png" width="800">
+<img src="Scheme of Conduction and Direction.png" width="800">
 
 
 # Build
