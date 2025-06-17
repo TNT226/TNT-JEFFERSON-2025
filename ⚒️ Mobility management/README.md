@@ -25,18 +25,18 @@ Second, the name of that "ready to go" electrical piece/component
 
 |## THE "READY TO GO" ELECTRICAL COMPONENTS OUR ROBOT USES ARE:|
 |-----------------------------|---------------------|
-|1x Gray 11.4V JGB37-520 Motor|<img src="Motor JGB37-520.jpg" width="500">|
-|1x Pixycam 2.1|<img src="Pixycam.jpg" width="500">|
-|2x Ultrasound sensors|<img src="Ultrasonic Sensor.png" width="500">|
-|Many Arduino cables |<img src="Arduino Cables.png" width="500">|
-|Many Alligator Cables|<img src="Alligator Cables.jpg" width="500">|
-|1x Nihewo Batery 11.1V/7500mAh|<img src="" width="500">|
-|1x Arduino Uno Board|<img src="Arduino UNO.jpeg" width="500">|
-|1x Arduino Shield Protoboard|<img src="Arduino Shield Protoboard .jpg" width="500">|
-|1x H-Bridge Module|<img src="H-bridge module.JPG" width="500">|
-|1x Buck Module|<img src="Buck Module.jpg" width="500">|
-|1x Switch On-Off|<img src="Switch On-Off.jpg" width="500">|
-|1x Servo Motor 7.4V|<img src="7.4 V Servo Motor.jpg" width="500">|
+|1x Gray 11.4V JGB37-520 Motor|<img src="Motor JGB37-520.jpg" width="200">|
+|1x Pixycam 2.1|<img src="Pixycam.jpg" width="200">|
+|2x Ultrasound sensors|<img src="Ultrasonic Sensor.png" width="200">|
+|Many Arduino cables |<img src="Arduino Cables.png" width="200">|
+|Many Alligator Cables|<img src="Alligator Cables.jpg" width="200">|
+|1x Nihewo Batery 11.1V/7500mAh|<img src="" width="200">|
+|1x Arduino Uno Board|<img src="Arduino UNO.jpeg" width="200">|
+|1x Arduino Shield Protoboard|<img src="Arduino Shield Protoboard .jpg" width="200">|
+|1x H-Bridge Module|<img src="H-bridge module.JPG" width="200">|
+|1x Buck Module|<img src="Buck Module.jpg" width="200">|
+|1x Switch On-Off|<img src="Switch On-Off.jpg" width="200">|
+|1x Servo Motor 7.4V|<img src="7.4 V Servo Motor.jpg" width="200">|
 
 
 
