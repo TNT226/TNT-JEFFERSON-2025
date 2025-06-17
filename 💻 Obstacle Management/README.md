@@ -24,34 +24,32 @@ A pseudocode is a representation of code used to demonstrate the implementation 
 
 -  The JGB37-520 motor starts and the car begins to go forward.
 -  It continues going straight forward until the ultrasonic sensor detects a distance more than the - in the track.
--  If the distance is - from eaither side it will turn right or left.
+-  If the distance is - from each side it will turn right or left.
 -  If the left wall is closer to the robot than the right wall, it turns to the right side, if not, then the right wall is closer to the robot than the left wall, it turns to the left side.
 -  After the robot sees the orange line and/or blue line and turns 12 times (makes 3 laps) it stops where it started and the round ends, if it doesn't sees the orange line and/or blue line and turns 12 times (makes 3 laps) it constinues going until the 3 laps are completed and the round/challenge ends.
 
 ### Round 2:
 
--  The dc motors starts and the car begins to go forward.
--  It continues going straight forward until the pixycam detects an orange or blue line _or_ a green or red obstacle in the track.
--  If the line it sees is orange, it will turn to the right.
--  If the line it sees is blue, it will turn to the left.
+- The JGB37-520 motor starts and the car begins to go forward.
+-  It continues going straight forward until the ultrasonic sensor detects a distance more than the lenghth between the black boards in the track.
+-  If the distance is closer from each side it will turn right or left.
+-  If the left wall is closer to the robot than the right wall, it turns to the right side, if not, then the right wall is closer to the robot than the left wall, it turns to the left side.
 -  If the obstacle it sees is red, it will turn to the right.
 -  If the obstacle it sees is green, it will turn to the left.
 -  While the pixycam is working, the ultrasonic sensors in our robot are working too. These ultrasonic sensors help us know the distance between our robot and the walls in the track.
--  If the left wall is closer to the robot than the right wall, it turns to the right side, if not, then the right wall is closer to the robot than the left wall, it turns to the left side.
 -  After the robot sees the orange line and/or blue line and turns 12 times (makes 3 laps) it stops where it started and the round ends, if it doesn't sees the orange line and/or blue line and turns 12 times (makes 3 laps) it constinues going until the 3 laps are completed and the round/challenge ends.
 
 ### Round 3:
 
 ** In this round, the robot works the same the only step that changes in the final step in which the car has to park inside a magenta parking lot. **
 
--  The dc motors starts and the car begins to go forward.
--  It continues going straight forward until the pixycam detects an orange or blue line _or_ a green or red obstacle in the track.
--  If the line it sees is orange, it will turn to the right.
--  If the line it sees is blue, it will turn to the left.
+-  - The JGB37-520 motor starts and the car begins to go forward.
+-  It continues going straight forward until the ultrasonic sensor detects a distance more than the lenghth between the black boards in the track.
+-  If the distance is closer from each side it will turn right or left.
+-  If the left wall is closer to the robot than the right wall, it turns to the right side, if not, then the right wall is closer to the robot than the left wall, it turns to the left side.
 -  If the obstacle it sees is red, it will turn to the right.
 -  If the obstacle it sees is green, it will turn to the left.
 -  While the pixycam is working, the ultrasonic sensors in our robot are working too. These ultrasonic sensors help us know the distance between our robot and the walls in the track.
--  If the left wall is closer to the robot than the right wall, it turns to the right side, if not, then the right wall is closer to the robot than the left wall, it turns to the left side.
 -  After the robot sees the orange line and/or blue line and turns 12 times (makes 3 laps) it searches for the magenta parking lot with the pixycam and  parks inside it and the round ends, if it doesn't sees the orange line and/or blue line and turns 12 times (makes 3 laps) it constinues going until the 3 laps are completed and it parks inside it and the round/challenge ends.
 
 In order to explain all of the above better, we designed a flowchart diagram, a visual representation that depicts our process, system, computer algorithm, and a brief summary of how our code of the robot works on the track. During our journey we created two flowcharts as you can see below. The difference between the two diagrams is that the old one wasn't a good flowchart and didn't completely follow all the rules of a flowchart diagram and didn't explained correctly how our code and process works, on the other hand, our new flowchart diagram, does follow all the rules and conditions of a new flowchart diagram and explains correctly how our code and process works.
@@ -78,17 +76,11 @@ Below you have a brief summary, pseudocode and strategies used in each indivual 
 
 ## Code for first round (Open challenge round)
 
-This code works for the first round, if you want to know what it is about check the file in the folder that's named "First round.ino", since the detailed comments will tell you what it is about.
-
-## Code for first round 2 (Open challenge round)
-
-This code works for the first round, if you want to know what it is about check the file in the folder that's named "First round.ino", since the detailed comments will tell you what it is about.
+This code works for the first round, if you want to know what it is about check the file in the folder that's named "First Round Code.ino", since the detailed comments will tell you what it is about.
 
 ## Code for second round (Obstacle challenge round)
 
-This code works for the second round, if you want to know what it is about check the file in the folder that's named "Second round.ino", since the detailed comments will tell you what it is about.
-
-## Below you'll see some _tests_ codes we did before:
+This code works for the second round, if you want to know what it is about check the file in the folder that's named "Second Round Code.ino", since the detailed comments will tell you what it is about.
 
 
 ## Code for the motors of the second prototype:
@@ -103,11 +95,6 @@ This code works for the second round, if you want to know what it is about check
 The robot does this cicle 4 times,for it to finish that round, which is the first challenge (the open challange). This code is a way of completing the first challenge by using time.
 
 - You can see this code being used and putted to the test in "Second prototype on the track" (in the videos folder).
-
-## Code for the three ultrasonic sensors:
-
-- This code is so the three ultrasonic sensors work together in unison. The sensors perceive the distance in cm in this code.
-- This code also works together with the servomotor code.
 
 ## Code for the servomotor and ultrasonic sensors:
 
