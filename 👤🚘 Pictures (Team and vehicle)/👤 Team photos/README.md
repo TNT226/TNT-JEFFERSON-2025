@@ -8,7 +8,7 @@ Our team counts with three members. We are:
 
 1) Sarah Virginia Quintana Arrieta
 
-<img src="Sarah Quintana" width="400">
+<img src="Sarah Quintana.jpeg" width="400">
 
 2) Emiliana Raquel Guerrero Fermín
 
