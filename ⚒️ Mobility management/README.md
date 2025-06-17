@@ -63,11 +63,11 @@ Now, we will talk about all the information regarding our 3D printed models, des
 
 # Our 3D printers
 It is important to mention that we own a Bambú Lab P1s 3d printer, which is a fundametal part in the creation of our robot.
-<img src="Lambú Labs P1s .jpg" width="300">
+|<img src="Lambú Labs P1s .jpg" width="300">|
 
 ## Green and red obstacles
 This model counts with two pieces: the first one being red and the second one being green. This pieces help us practice for the second round (obstacle challenge).
-<img src="Obstacules.jpg" width="300">
+|<img src="Obstacules.jpg" width="300">|
 
 ### (you can find the 3D model stl document in this folder)
 
