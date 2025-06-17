@@ -63,7 +63,7 @@ Now, we will talk about all the information regarding our 3D printed models, des
 
 # Our 3D printers
 It is important to mention that we own a Bambú Lab P1s 3d printer, which is a fundametal part in the creation of our robot.
-<img src="Lambú Labs P1s .jpg" width="300">
+<img src="Lambú Labs P1s.jpg" width="300">
 
 ## Green and red obstacles
 This model counts with two pieces: the first one being red and the second one being green. This pieces help us practice for the second round (obstacle challenge).
@@ -73,8 +73,8 @@ This model counts with two pieces: the first one being red and the second one be
 
 ## Gears
 For the gears, we designed two models the Carriage Axle Gear and the Motor Gear, which are attached to the axis (that we also designed) and to the motor.
-|Motor Gear|<img src="Motor Gear.stl" width="300">|
-|Carriage Axle Gear|<img src="Carriage Axle Gear 3d.stl" width="300">|
+|Motor Gear|<img src="Motor Gear.jpeg" width="300">|
+|Carriage Axle Gear|<img src="Carriage Axle Gear .jpeg" width="300">|
 
 ## As a final note, it is important to mention that, as you have read, although we did purchased an ackerman chasis, we still modificated the mayority of it, making it our own and unique proyect, meaning we did _`not`_ use any Standard Construction Kit "Off the shelf" to build our robot, like Lego. We designed and builded our own original and unique robot, with our own 3d printed parts and electrical components.
 
