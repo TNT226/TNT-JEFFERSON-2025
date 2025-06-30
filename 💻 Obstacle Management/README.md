@@ -74,36 +74,24 @@ In this directory we uploaded all the codes we used both for our prototytpes and
 
 Below you have a brief summary, pseudocode and strategies used in each indivual file and code:
 
-## Code for first round (Open challenge round)
+## Code for First Round (Open challenge round)
 
-This code works for the first round, if you want to know what it is about check the file in the folder that's named "First Round Code.ino", since the detailed comments will tell you what it is about.
+This code is specifically designed for the first round, also known as the open challenge round, of the competition. To understand its functionality in detail, please refer to the file named "First Round Code.ino" located in the designated folder. Within that file, you will find not only the code itself but also a comprehensive pseudocode explanation, breaking down each line step by step.
 
 ## Code for second round (Obstacle challenge round)
 
 This code works for the second round, if you want to know what it is about check the file in the folder that's named "Second Round Code.ino", since the detailed comments will tell you what it is about.
 
 
-## Code for the motors of the second prototype:
-
-- What this code does is simple: 
-
-   - First, it takes 2 seconds to start the code, this is made intencionally so we had to accomodate the robot in the track            comfortably.
-   - Second, the code starts and it turns both motors on, making it go in a straight line for 14 seconds
-   - After the 14 seconds have passed, the robot turns to the side for 9 seconds (by turning off one motor while the other one is still on)
-   - And finally, it goes in a straight line again (turning on both motors, like in the beginning).
-
-The robot does this cicle 4 times,for it to finish that round, which is the first challenge (the open challange). This code is a way of completing the first challenge by using time.
-
-- You can see this code being used and putted to the test in "Second prototype on the track" (in the videos folder).
-
 ## Code for the servomotor and ultrasonic sensors:
 
-This code makes the direction mechanism and the three ultrasonic sensors in our robot work together
+The code "Code for the servomotor and ultrasonic sensors.ino" enables the coordinated operation of our robot's steering mechanism and its two ultrasonic sensors. Within this file, you will find not only the code itself but also a detailed explanation, complete with its corresponding pseudocode.
 
-It works like this:
+The mechanism operates as follows:
 
-- If the robot detects that one side is more than 50cm it goes that way
-- If the robot detects that one side is less that 50 cm it goes to the opposite way
+- If the robot detects that one side is more than 50 cm away, it moves in that direction.
+
+- If the robot detects that one side is less than 50 cm away, it moves in the opposite direction.
 
 
 
