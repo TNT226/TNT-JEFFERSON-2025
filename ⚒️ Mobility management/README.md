@@ -1,6 +1,6 @@
 # Mobility management
 
-***Selection and Implementation of the Ackermann Chassis for Our Robotic Vehicle***
+***Selection and Implementation of the Ackermann Chassis for Our Robotic Vehicle**
 
 The decision to use an open Ackermann chassis for our vehicle was driven by several key factors related to functionality, space optimization, and modularity. The Ackermann steering geometry was chosen specifically because it provides improved turning efficiency and stability compared to simpler differential steering systems, making it ideal for precise navigation and maneuverability in our application. This design ensures that the inner and outer wheels follow different turning radii, minimizing tire scrub and improving overall control—a critical advantage for a vehicle carrying multiple electronic components.
 
