@@ -1,105 +1,121 @@
 #include <Servo.h>
 
-
+// Initialize servo object
 Servo servo;
 
-int ServoPin = 3;
+// Pin definitions
+const int ServoPin = 3;       // Servo control pin
+const int trigPin1 = 13;       // First ultrasonic sensor trigger
+const int echoPin1 = 10;       // First ultrasonic sensor echo
+const int trigPin2 = 12;       // Second ultrasonic sensor trigger
+const int echoPin2 = 9;        // Second ultrasonic sensor echo
 
-int trigPin1 = 13;
-int echoPin1 = 10;
-
-int trigPin2 = 12;
-int echoPin2 = 9;
-
-int trigPin3 = 11;
-int echoPin3 = 8;
-
-
+// Constants
+const int SAFE_DISTANCE = 50;  // Distance threshold in cm
+const int SERVO_LEFT = 155;     // Left position for servo
+const int SERVO_RIGHT = 0;      // Right position for servo
+const int SERVO_CENTER = 90;    // Center position for servo
 
 void setup() {
+  // Pseudocode:
+  // BEGIN SETUP
+  //   Attach servo to control pin
+  //   Initialize serial communication
+  //   Set trigger pins as outputs
+  //   Set echo pins as inputs
+  // END SETUP
+  
   servo.attach(ServoPin);
-
-  Serial.begin (9600);
+  Serial.begin(9600);
+  
   pinMode(trigPin1, OUTPUT);
   pinMode(echoPin1, INPUT);
- 
   pinMode(trigPin2, OUTPUT);
-  pinMode(echoPin2, INPUT); 
- 
-  pinMode(trigPin3, OUTPUT);
-  pinMode(echoPin3, INPUT);
- 
- 
+  pinMode(echoPin2, INPUT);
+  
+  // Center servo at startup
+  servo.write(SERVO_CENTER);
 }
 
-void firstsensor(){ // This function is for first sensor
-  int duration1, distance1;
-  digitalWrite (trigPin1, HIGH);
-  delayMicroseconds (10);
-  digitalWrite (trigPin1, LOW);
-  duration1 = pulseIn (echoPin1, HIGH);
-  distance1 = (duration1/2) / 29.1;
+float readUltrasonic(int trigPin, int echoPin) {
+  // Pseudocode:
+  // BEGIN READ ULTRASONIC DISTANCE
+  //   Send 10μs pulse to trigger pin
+  //   Measure echo pulse duration
+  //   Calculate distance in cm
+  //   Return distance
+  // END READ ULTRASONIC DISTANCE
+  
+  digitalWrite(trigPin, HIGH);
+  delayMicroseconds(10);
+  digitalWrite(trigPin, LOW);
+  long duration = pulseIn(echoPin, HIGH);
+  return (duration / 2) / 29.1;  // Convert to cm
+}
 
-      Serial.print("1st Sensor: ");
-      Serial.print(distance1); 
-      Serial.print("cm    ");
-
-  if (distance1 > 50) {  
+void checkLeftSensor() {
+  // Pseudocode:
+  // BEGIN CHECK LEFT SENSOR
+  //   Read distance from left sensor
+  //   Print distance to serial
+  //   If obstacle detected beyond safe distance
+  //     Wait 500ms
+  //     Turn servo left
+  //     Wait 800ms
+  //     Return servo to center
+  // END CHECK LEFT SENSOR
+  
+  float distance = readUltrasonic(trigPin1, echoPin1);
+  
+  Serial.print("Left Sensor: ");
+  Serial.print(distance);
+  Serial.print("cm    ");
+  
+  if (distance > SAFE_DISTANCE) {
     delay(500);
-    servo.write(155);
-   delay(800);
-   servo.write(90);
-  } else {
-    
-  }   
+    servo.write(SERVO_LEFT);
+    delay(800);
+    servo.write(SERVO_CENTER);
+  }
 }
-void secondsensor(){ // This function is for second sensor
-    int duration2, distance2;
-    digitalWrite (trigPin2, HIGH);
-    delayMicroseconds (10);
-    digitalWrite (trigPin2, LOW);
-    duration2 = pulseIn (echoPin2, HIGH);
-    distance2 = (duration2/2) / 29.1;
- 
-      Serial.print("2nd Sensor: ");
-      Serial.print(distance2); 
-      Serial.print("cm    ");
-  
-    if (distance2 > 50) {  
-      delay(500);
-      servo.write(0);
-      delay(800);
-      servo.write(90);
-    }
- else {
-      
-    }  
- 
-}
-void thirdsensor(){ // This function is for third sensor
-    int duration3, distance3;
-    digitalWrite (trigPin3, HIGH);
-    delayMicroseconds (10);
-    digitalWrite (trigPin3, LOW);
-    duration3 = pulseIn (echoPin3, HIGH);
-    distance3 = (duration3/2) / 29.1;
 
-      Serial.print("3rd Sensor: ");  
-      Serial.print(distance3); 
-      Serial.print("cm");
+void checkRightSensor() {
+  // Pseudocode:
+  // BEGIN CHECK RIGHT SENSOR
+  //   Read distance from right sensor
+  //   Print distance to serial
+  //   If obstacle detected beyond safe distance
+  //     Wait 500ms
+  //     Turn servo right
+  //     Wait 800ms
+  //     Return servo to center
+  // END CHECK RIGHT SENSOR
   
-    if (distance3 < 10) {  // Change the number 
-     
-    }
- else {
-      
-    }  
+  float distance = readUltrasonic(trigPin2, echoPin2);
+  
+  Serial.print("Right Sensor: ");
+  Serial.print(distance);
+  Serial.print("cm    ");
+  
+  if (distance > SAFE_DISTANCE) {
+    delay(500);
+    servo.write(SERVO_RIGHT);
+    delay(800);
+    servo.write(SERVO_CENTER);
+  }
 }
 
 void loop() {
-Serial.println("\n");
-firstsensor();
-secondsensor();
-thirdsensor();
-delay(100);
+  // Pseudocode:
+  // BEGIN MAIN LOOP
+  //   Print new line for readability
+  //   Check left sensor
+  //   Check right sensor
+  //   Small delay to prevent sensor interference
+  // END MAIN LOOP
+  
+  Serial.println();
+  checkLeftSensor();
+  checkRightSensor();
+  delay(100);
 }
