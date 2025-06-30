@@ -8,14 +8,14 @@ The decision to use an open Ackermann chassis for our vehicle was driven by seve
 
 The implementation of our chassis required two distinct platforms due to spatial constraints and component organization needs. A single platform would have made the vehicle excessively long, violating the size limitations set for our project.
 
-***Primary Platform (Pre-fabricated Chassis Base):***
+##***Primary Platform (Pre-fabricated Chassis Base):***
 This platform came as part of the commercially available Ackermann chassis kit and serves as the structural foundation. It houses:
 -The steering servo motor, which controls the front wheels via the Ackermann linkage.
 -The JGB37-520 drive motor, mounted to power the rear wheels, providing sufficient torque and speed for movement.
 -The Nihewo battery pack, positioned for optimal weight distribution.
 -Additional 3D-printed brackets and supports designed by our team to secure components effectively.
 
-***Secondary Platform (Custom 3D-Printed Add-On):***
+##***Secondary Platform (Custom 3D-Printed Add-On):***
 To accommodate the remaining electronics without overextending the chassis length, we designed and fabricated a second platform that attaches to the primary structure using four metal support pillars (included in the original chassis kit). This elevated platform contains:
 -The Arduino Uno (with motor shield) acting as the central control unit.
 -An H-Bridge module for bidirectional motor control.
@@ -23,10 +23,10 @@ To accommodate the remaining electronics without overextending the chassis lengt
 -Two ultrasonic sensors for obstacle detection.
 -A PixyCam mounted on a custom 3D-printed stand, enabling vision-based navigation.
 
-***Advantages of the Dual-Platform Approach***
+##***Advantages of the Dual-Platform Approach***
 The design of the system prioritizes both ease of use and optimal performance through its modular and accessible structure. By separating mechanical and electronic components onto different platforms, maintenance and debugging processes are significantly streamlined, allowing for quicker identification and resolution of issues. This stacked configuration also greatly benefits weight distribution, as the lower platform houses heavier elements like motors and batteries, thereby lowering the center of gravity and enhancing overall stability. Furthermore, the upper platform is intentionally designed with expandability in mind, providing ample space for future integrations such as additional sensors or wireless communication modules. This thoughtful arrangement ensures that the system not only complies with size limitations but also maximizes its functional capabilities within those constraints.
 
-***Why Ackermann Steering?***
+##***Why Ackermann Steering?***
 The team opted for an Ackermann steering mechanism over simpler designs like skid-steer due to its inherent advantages in vehicle dynamics. Ackermann steering significantly reduces lateral tire slippage during turns, leading to improved energy conservation and enhanced traction. This sophisticated geometry also ensures predictable handling, which is crucial for precise algorithmic control in tasks like path planning. Furthermore, the design offers greater scalability, allowing for adaptation to higher speeds or larger vehicle sizes without compromising stability. However, integrating this more complex system presented its own set of challenges. Component interference was a key concern, as the servo's movement necessitated careful placement to avoid collisions with the upper platform. This was successfully addressed by adjusting pillar heights and optimizing the servo's mounting angle. Additionally, vibration damping was essential, and the 3D-printed platform was reinforced with ribbing to prevent flexing during operation. Finally, meticulous wiring management was implemented, with cables routed through the pillars to minimize tangling and mitigate potential electromagnetic interference, ensuring reliable performance.
 
 By leveraging the Ackermann chassis’s mechanical advantages and augmenting it with a custom 3D-printed secondary platform, we achieved a compact, high-performance robotic vehicle. This design not only meets spatial and functional requirements but also provides a robust framework for future upgrades, demonstrating the synergy between off-the-shelf components and tailored engineering solutions.
