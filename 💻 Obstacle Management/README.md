@@ -63,6 +63,42 @@ This pseudocode outlines the operational logic for our robot, focusing on basic 
 ### Round 2:
 This pseudocode is the same as the one used for the first round. The only difference is that the rectangular box in the center is now moved slightly to either side of the track, but the underlying mechanism remains the same.
 
+**Step 1: Initialization**
+
+* Start the JGB37-520 motor.
+
+* Begin moving the car straight forward.
+
+* Initialize the turn counter to zero.
+
+**Step 2: Continuous Movement and Obstacle Detection**
+
+* Continue moving straight forward until an ultrasonic sensor detects a distance greater than the length between the black boards in the track.
+
+**Step 3: Directional Adjustment Based on Proximity**
+
+* **If the distance detected by an ultrasonic sensor is less than a predefined threshold from either side, the robot will initiate a turn (right or left).**
+
+* **If the left wall is closer to the robot than the right wall:**
+
+   * Turn the robot to the right side.
+
+* **Else (if the right wall is closer to the robot than the left wall):**
+
+   * Turn the robot to the left side.
+
+**Step 4: Lap Tracking and Round Termination**
+
+* **After the robot completes 12 turns (which signifies 3 laps):**
+
+   * Stop the robot at its starting position.
+
+   * End the round/challenge.
+
+* **If the robot has not yet completed 12 turns (3 laps):**
+
+   * Continue operating until all 3 laps are completed and the round/challenge ends.
+
 ### Round 3:
 This pseudocode outlines the operational logic for our robot, integrating both obstacle avoidance with ultrasonic sensors and color-based navigation using the Pixy camera.
 
