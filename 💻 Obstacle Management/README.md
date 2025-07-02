@@ -164,11 +164,11 @@ In this directory we uploaded all the codes we used both for our prototytpes and
 
 Below you have a brief summary, pseudocode and strategies used in each indivual file and code:
 
-## Code for First Round (Open challenge round)
+## Code for First and Second Round (Open Challenge Round)
 
 This code is specifically designed for the first round, also known as the open challenge round, of the competition. To understand its functionality in detail, please refer to the file named "First Round Code.ino" located in the designated folder. Within that file, you will find not only the code itself but also a comprehensive pseudocode explanation, breaking down each line step by step.
 
-## Code for Second Round (Obstacle challenge round)
+## Code for Third Round (Obstacle Challenge Round)
 
 This code works for the second round, if you want to know what it is about check the file in the folder that's named "Second Round Code.ino", since the detailed comments will tell you what it is about.
 
