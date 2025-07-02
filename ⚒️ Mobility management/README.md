@@ -171,7 +171,8 @@ For the gears, we designed two models the Carriage Axle Gear and the Motor Gear,
 
 <img src="Step 7.jpeg" width="500">
 
-****IMPORTANT FINAL NOTE****
+**IMPORTANT FINAL NOTE**
+
 It's absolutely vital to clarify this point, as it underscores the true innovative spirit and engineering prowess of Team TNT. While it's true that we initially acquired a Yahboom DIY Smart Robot Chassis with Ackerman steering, it is crucial to understand that **this served merely as a foundational starting point, not a pre-assembled solution**. We fundamentally transformed over 80% of this initial chassis, effectively making it a completely unique and original creation.
 
 Unlike "off-the-shelf" construction kits, such as those made by Lego, where components are designed for specific, pre-defined builds, our approach was one of genuine design and fabrication. We didn't simply follow instructions; we re-engineered. This involved a meticulous process of cutting, redesigning, and integrating custom 3D-printed parts that are entirely unique to KABOOM. From the custom motor stands and reinforced platforms to the precise placement of every electrical component, each modification was a deliberate engineering decision aimed at optimizing performance for the specific challenges of the WRO 2025 "Future Engineers" competition.
