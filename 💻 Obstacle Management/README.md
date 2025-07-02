@@ -42,23 +42,23 @@ This pseudocode outlines the operational logic for our robot, focusing on basic 
 
 * **If the left wall is closer to the robot than the right wall:**
 
-* Turn the robot to the right side.
+   * Turn the robot to the right side.
 
 * **Else (if the right wall is closer to the robot than the left wall):**
 
-* Turn the robot to the left side.
+   * Turn the robot to the left side.
 
 **Step 4: Lap Tracking and Round Termination**
 
 * **After the robot completes 12 turns (which signifies 3 laps):**
 
-* Stop the robot at its starting position.
+   * Stop the robot at its starting position.
 
-* End the round/challenge.
+   * End the round/challenge.
 
 * **If the robot has not yet completed 12 turns (3 laps):**
 
-* Continue operating until all 3 laps are completed and the round/challenge ends.
+   * Continue operating until all 3 laps are completed and the round/challenge ends.
 
 ### Round 2:
 This pseudocode is the same as the one used for the first round. The only difference is that the rectangular box in the center is now moved slightly to either side of the track, but the underlying mechanism remains the same.
