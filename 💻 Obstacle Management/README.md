@@ -30,14 +30,47 @@ A pseudocode is a representation of code used to demonstrate the implementation 
 
 ### Round 2:
 
-- The JGB37-520 motor starts and the car begins to go forward.
--  It continues going straight forward until the ultrasonic sensor detects a distance more than the lenghth between the black boards in the track.
--  If the distance is closer from each side it will turn right or left.
--  If the left wall is closer to the robot than the right wall, it turns to the right side, if not, then the right wall is closer to the robot than the left wall, it turns to the left side.
--  If the obstacle it sees is red, it will turn to the right.
--  If the obstacle it sees is green, it will turn to the left.
--  While the pixycam is working, the ultrasonic sensors in our robot are working too. These ultrasonic sensors help us know the distance between our robot and the walls in the track.
--  After the robot sees the orange line and/or blue line and turns 12 times (makes 3 laps) it stops where it started and the round ends, if it doesn't sees the orange line and/or blue line and turns 12 times (makes 3 laps) it constinues going until the 3 laps are completed and the round/challenge ends.
+This pseudocode outlines the operational logic for our robot, integrating both obstacle avoidance with ultrasonic sensors and color-based navigation using the Pixy camera.
+
+**Step 1: Initialize Robot and Begin Movement**
+* Start the JGB37-520 motor.
+* Begin moving the car straight forward.
+* Initialize turn counter for special color detection to zero.
+
+**Step 2: Continuous Sensor Readings**
+* Continuously read data from both ultrasonic sensors to determine distances to surrounding walls.
+* Continuously check the Pixy camera for color detection.
+
+**Step 3: Color-Based Navigation (Prioritized)**
+* **If the Pixy camera detects a Green obstacle:**
+    * Turn the robot to the **left**.
+* **If the Pixy camera detects a Red obstacle:**
+    * Turn the robot to the **right**.
+* **If the Pixy camera detects the Special (Magenta) color:**
+    * Increment the turn counter (lap counter).
+    * If the turn counter reaches 3 (meaning 3 laps are completed):
+        * Stop the robot permanently (park in the magenta parking lot).
+        * End the round/challenge.
+    * If the turn counter has not reached 3, continue normal operation.
+
+**Step 4: Ultrasonic-Based Obstacle Avoidance (When No Color Detected)**
+* **If no color is currently detected by the Pixy camera:**
+    * **If both ultrasonic sensors detect walls:**
+        * Continue moving straight forward.
+    * **If the left ultrasonic sensor detects open space (distance > 50 cm):**
+        * Turn the robot to the **left**.
+    * **If the right ultrasonic sensor detects open space (distance > 50 cm):**
+        * Turn the robot to the **right**.
+    * **If the distance detected by one wall is significantly closer than the other (e.g., one side is < 50 cm and the other is > 50 cm):**
+        * If the **left wall** is closer to the robot than the right wall:
+            * Turn the robot to the **right** (to move away from the left wall).
+        * Else (if the **right wall** is closer to the robot than the left wall):
+            * Turn the robot to the **left** (to move away from the right wall).
+
+**Step 5: Repeat**
+* Continuously repeat Steps 2, 3, and 4 until the round ends (e.g., 3 laps are completed or the challenge time expires).
+
+------------------------------------------
 
 ### Round 3:
 
@@ -78,7 +111,7 @@ Below you have a brief summary, pseudocode and strategies used in each indivual 
 
 This code is specifically designed for the first round, also known as the open challenge round, of the competition. To understand its functionality in detail, please refer to the file named "First Round Code.ino" located in the designated folder. Within that file, you will find not only the code itself but also a comprehensive pseudocode explanation, breaking down each line step by step.
 
-## Code for second round (Obstacle challenge round)
+## Code for Second Round (Obstacle challenge round)
 
 This code works for the second round, if you want to know what it is about check the file in the folder that's named "Second Round Code.ino", since the detailed comments will tell you what it is about.
 
