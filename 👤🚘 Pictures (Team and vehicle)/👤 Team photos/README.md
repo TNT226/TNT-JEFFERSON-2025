@@ -20,3 +20,5 @@ Our team counts with three members. We are:
 
 ### And together we are TNT!
 
+To make it easier to see us working, we created a YouTube video documenting our process for completing the first challenge.
+link: 
