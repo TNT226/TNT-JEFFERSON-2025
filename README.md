@@ -1,7 +1,8 @@
 # `TNT` - `KABOOM`
 
-Disclaimer
+## Disclaimer
 This repository is the same for the competition of the WRO 2025 Venezuela, and the WRO 2025 China.
+There are two teams participating in the WRO competitions: one competing in WRO Venezuela made up of Nicola, Emiliana and Sara and another that will compete in WRO China made up of Nicola, Sara and Samantha.
 
 ## About
 
